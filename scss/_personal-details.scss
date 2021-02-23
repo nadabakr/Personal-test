@@ -1,0 +1,7 @@
+.personal {
+    &__about-me {
+        a {
+            @extend %btn;
+        }
+    }
+}

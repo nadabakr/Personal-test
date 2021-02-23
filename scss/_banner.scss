@@ -1,0 +1,8 @@
+.banner {
+    padding-top: 6rem;
+    &__me {
+        a {
+            @extend %btn;
+        }
+    }
+}

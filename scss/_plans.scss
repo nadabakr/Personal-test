@@ -1,0 +1,12 @@
+.plans {
+    &__plan {
+        h2 {
+            @include avatar(7rem);
+            margin: auto;
+        }
+    }
+    p {
+        border-bottom: 1px rgb(170, 168, 168) solid;
+        margin-bottom: 1rem;
+    }
+}

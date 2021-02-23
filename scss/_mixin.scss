@@ -1,0 +1,6 @@
+@mixin avatar($value) {
+    width: $value;
+    height: $value;
+    border-radius: 50%;
+    border: 1.8rem solid #E7EAFF;
+}

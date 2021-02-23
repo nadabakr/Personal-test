@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: .9rem;
+}
+
+p {
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: $primarycolor;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.btn:hover {
+    background: rgb(100, 0, 231);
+    color: $secondarycolor;
+}
+
+.active {
+    color: blue;
+}
+
+#icon {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}

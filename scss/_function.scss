@@ -1,0 +1,4 @@
+@function size($value) {
+    $result: $value / 16;
+    @return #{$result}rem;
+}
